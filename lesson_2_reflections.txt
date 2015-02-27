@@ -1,0 +1,10 @@
+-What happens when you initialize a repository? Why do you need to do it?
+
+initializing a repository starts tracking changes at that point in time.  Starting point for any updates later.
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area is different from working directory in that it contains only the changes you want to commit.
+staging area is different from the repository in that it hold changes targeted for the repository.
+Value to have a staging area is that it separates the working directory from repository when you may have changes that you don't want to commit.
+
+
