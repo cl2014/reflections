@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The comparison was pointed out clearly one after the other.  Used window's "fc" command; and using git bash's "diff -u" command.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can see the changes version by version and can undo small changes as needed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+		[Presentation:Each checkpoint should be meaningful]
+    Manual:
+    	Pro: Save on major changes at developer's discretion - each logical change with commit message.
+    	Con: Developer may not remember to save at critical changes, making the commit "too big".
+    Automatic (time-lapse, block of code size updated, time-pause):
+    	Pro: Have enough saved points to restore back to.
+    	Con: May have to sort through many restore points, since no developer note is added to highlight the significance of the save point.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving multiple in 1 commit saves time and help with logical grouping; but restoring may be trickier (restore multiple files?).
+    Saving each file separately is clean but more time consuming.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    "git log" shows info of each file committed.
+    "git diff" shows the differences of the lines comparing the two files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Can always undo!  Risk taking to explore architecture.
+    Instead of baby steps.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Creating and updating and merging files.  Save my files as a group!!!
