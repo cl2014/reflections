@@ -8,3 +8,28 @@ staging area is different from the repository in that it hold changes targeted f
 Value to have a staging area is that it separates the working directory from repository when you may have changes that you don't want to commit.
 
 
+-How can you use the staging area to make sure you have one commit per logical change?
+Put one logical change on the staging area, then commit. Can be one file, can be multiple files.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+helpful when starting a change that is exeriemental.  You still have a working copy (master) while you work on the new branch.
+Mike Welch- udacity curriculum manager:
+Moving to a different piece of work - create a new branch.  Context switching.  New feature, new bug -- create a branch at that time.
+Keep project organized especially when sharing publicly.  Master branch would be the production quality branch that never breaks, always works. 
+Then you can have Development branch where active work is taking place on your project.  Experimental branch, unique feature branches.  You are working 
+on these and fully expect them to break.  
+Branches are also good when not shared with public, but collaborate with yourself.  A lot of times, if I am working on a feature,
+and then I come across a bug, branches allow me that ability to context switch and get away from the work I am doing on my feature; go back
+to where I need to be able to fix the bug and then compartmentalize that work.  
+
+-How do the diagrams help you visualize the branch structure?
+diagrams help with the commit history and all branches that were created and committed on.  Explains reacheability clearly
+and the Detached Head message, when checking out a commit.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Result of merging two branches makes the code have features brought from both branches into one, and can be referenced by one label.  The diagram now represents
+it clearly has having one branch.
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro: saves developer time.
+Con: sometimes it needs developer, can not do it completely.  
